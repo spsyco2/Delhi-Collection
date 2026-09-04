@@ -148,6 +148,50 @@ export const CustomerHome: React.FC = () => {
           {settings.tagline || t('exclusive_rewards')}
         </p>
 
+        {/* Brand Story Section */}
+        <div className="w-full bg-white/10 backdrop-blur-md rounded-3xl p-5 sm:p-6 border border-white/20 shadow-xl mb-8 animate-fadeIn text-center">
+          <h2 className="text-lg font-bold text-white mb-2 flex items-center justify-center gap-2">
+            <Sparkles className="w-5 h-5 text-amber-400" />
+            About {settings.brandName || 'Delhi Collection'}
+          </h2>
+          <p className="text-sm text-white/80 leading-relaxed">
+            {settings.brandDescription || "Welcome to Delhi Collection, where luxury meets tradition. We bring you the finest curated collections and exclusive rewards to enhance your shopping experience."}
+          </p>
+        </div>
+
+        {/* Visit Us Section */}
+        <div className="w-full bg-white/10 backdrop-blur-md rounded-3xl p-5 sm:p-6 border border-white/20 shadow-xl mb-8 animate-fadeIn">
+          <h2 className="text-lg font-bold text-white mb-4 flex items-center gap-2">
+            <MapPin className="w-5 h-5 text-red-400" />
+            Visit Our Store
+          </h2>
+          <div className="space-y-3 text-sm text-white/80">
+            <div className="flex items-start gap-3">
+              <div className="w-5 h-5 rounded-full bg-white/20 flex items-center justify-center shrink-0 mt-0.5">
+                <Globe className="w-3 h-3" />
+              </div>
+              <p>{settings.storeAddress || "Main Market, Bharwara, Delhi"}</p>
+            </div>
+            <div className="flex items-center gap-3">
+              <div className="w-5 h-5 rounded-full bg-white/20 flex items-center justify-center shrink-0">
+                <Phone className="w-3 h-3" />
+              </div>
+              <p>{settings.whatsappNumber || "+91 000 000 0000"}</p>
+            </div>
+          </div>
+          {settings.googleMapsUrl && (
+            <a 
+              href={settings.googleMapsUrl} 
+              target="_blank" 
+              rel="noreferrer" 
+              className="mt-4 w-full py-2.5 bg-white/20 hover:bg-white/30 text-white text-center rounded-xl text-xs font-bold transition-all flex items-center justify-center gap-2 border border-white/30"
+            >
+              <ExternalLink className="w-3 h-3" />
+              Open in Google Maps
+            </a>
+          )}
+        </div>
+
         {!customer && !showParticipationForm && (
           <button
             type="button"
