@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="70%" stop-color="#F7F6F4" />
+      <stop offset="100%" stop-color="#EFECE6" />
+    </radialGradient>
+    <pattern id="fashionDoodles" width="400" height="400" patternUnits="userSpaceOnUse">
+      <g stroke="#C5BDB5" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.38">
+        <!-- High Heel -->
+        <path d="M 40 70 C 60 70 80 50 100 20 L 110 25 C 100 65 75 80 40 80 Z M 105 23 L 112 75 L 105 75 Z" />
+        <!-- Handbag -->
+        <rect x="220" y="50" width="60" height="45" rx="6" />
+        <path d="M 235 50 C 235 30 265 30 265 50" />
+        <circle cx="250" cy="72" r="4" fill="#C5BDB5" />
+        <!-- Watch -->
+        <circle cx="60" cy="180" r="18" />
+        <circle cx="60" cy="180" r="14" stroke-dasharray="2 4" />
+        <path d="M 60 150 L 60 162 M 60 198 L 60 210 M 60 180 L 60 172 M 60 180 L 68 180" />
+        <!-- Perfume Bottle -->
+        <rect x="310" y="160" width="40" height="50" rx="4" />
+        <rect x="322" y="146" width="16" height="14" rx="2" fill="#C5BDB5" fill-opacity="0.3" />
+        <path d="M 330 146 L 330 138" />
+        <!-- Sunglasses -->
+        <rect x="180" y="160" width="30" height="20" rx="8" />
+        <rect x="220" y="160" width="30" height="20" rx="8" />
+        <path d="M 210 168 L 220 168 M 180 165 L 165 158 M 250 165 L 265 158" />
+        <!-- Hat -->
+        <path d="M 50 310 Q 120 280 190 310 Q 120 330 50 310 Z M 85 300 C 85 260 155 260 155 300" />
+        <!-- Diamond Ring -->
+        <circle cx="330" cy="290" r="16" />
+        <path d="M 322 274 L 330 262 L 338 274 Z" fill="#C5BDB5" fill-opacity="0.4" />
+        <!-- Bow / Ribbon -->
+        <path d="M 70 360 C 50 345 50 375 70 360 C 90 345 90 375 70 360 Z M 70 360 L 60 380 M 70 360 L 80 380" />
+        <!-- Necklace Pearls -->
+        <path d="M 200 340 Q 250 380 300 340" stroke-dasharray="1 9" stroke-width="5" stroke-linecap="round" />
+        <!-- Coat Hanger -->
+        <path d="M 250 250 C 240 240 260 230 250 220 M 210 260 L 250 245 L 290 260 Z" />
+      </g>
+    </pattern>
+  </defs>
+
+  <!-- Background Base with Fashion Pattern -->
+  <rect width="1200" height="1200" fill="url(#bgGrad)" />
+  <rect width="1200" height="1200" fill="url(#fashionDoodles)" />
+
+  <!-- Center Artwork: Shopping Bags + Delhi Collection Emblem + Men Illustration -->
+  <g transform="translate(600, 600)">
+    <!-- Shopping Bags Cluster in Silhouette -->
+    <g transform="translate(0, -220)">
+      <!-- Bag 1 (Tilted Left) -->
+      <path d="M -150 -60 L -70 -75 L -45 55 L -130 65 Z" fill="#1C1917" />
+      <path d="M -120 -64 C -120 -95 -95 -95 -95 -70" fill="none" stroke="#FFFFFF" stroke-width="4" />
+      <!-- Brand Logos inside bag 1 -->
+      <text x="-95" y="-30" font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="900" fill="#FFFFFF" text-anchor="middle" transform="rotate(-8 -95 -30)">ZARA</text>
+      <text x="-90" y="-8" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="800" fill="#FFFFFF" text-anchor="middle" transform="rotate(-8 -90 -8)">DIESEL</text>
+      <text x="-88" y="12" font-family="'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="700" fill="#FFFFFF" text-anchor="middle" transform="rotate(-8 -88 12)">Calvin Klein</text>
+      <text x="-85" y="30" font-family="'Helvetica Neue', Arial, sans-serif" font-size="9" font-weight="800" fill="#FFFFFF" text-anchor="middle" transform="rotate(-8 -85 30)">BURBERRY</text>
+      <text x="-82" y="48" font-family="'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="900" fill="#FFFFFF" text-anchor="middle" transform="rotate(-8 -82 48)">adidas</text>
+
+      <!-- Bag 2 (Center Right) -->
+      <path d="M -70 -75 L 30 -85 L 50 45 L -45 55 Z" fill="#292524" />
+      <path d="M -30 -78 C -30 -105 0 -105 0 -82" fill="none" stroke="#FFFFFF" stroke-width="4" />
+      <!-- Brand Logos inside bag 2 -->
+      <text x="-12" y="-45" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="900" fill="#FFFFFF" text-anchor="middle" transform="rotate(-6 -12 -45)">D&amp;G</text>
+      <text x="-10" y="-25" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="900" fill="#FFFFFF" text-anchor="middle" transform="rotate(-6 -10 -25)">GAP</text>
+      <text x="-8" y="-5" font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="900" fill="#FFFFFF" text-anchor="middle" transform="rotate(-6 -8 -5)">H&amp;M</text>
+      <text x="-5" y="18" font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="900" fill="#FFFFFF" text-anchor="middle" transform="rotate(-6 -5 18)">LV</text>
+      <text x="-2" y="38" font-family="'Helvetica Neue', Arial, sans-serif" font-size="8" font-weight="800" fill="#FFFFFF" text-anchor="middle" transform="rotate(-6 -2 38)">TOMMY HILFIGER</text>
+
+      <!-- Bag 3 (Right) -->
+      <path d="M 20 -70 L 100 -55 L 75 60 L 0 50 Z" fill="#1C1917" />
+      <path d="M 45 -66 C 45 -95 75 -95 75 -60" fill="none" stroke="#FFFFFF" stroke-width="4" />
+      <text x="55" y="-35" font-family="'Helvetica Neue', Arial, sans-serif" font-size="9" font-weight="800" fill="#FFFFFF" text-anchor="middle" transform="rotate(8 55 -35)">ARMANI JEANS</text>
+      <text x="50" y="-12" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="900" fill="#FFFFFF" text-anchor="middle" transform="rotate(8 50 -12)">NIKE</text>
+      <text x="45" y="10" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="900" fill="#FFFFFF" text-anchor="middle" transform="rotate(8 45 10)">Dior</text>
+    </g>
+
+    <!-- Main Bold DELHI COLLECTION Headline -->
+    <g transform="translate(0, -90)">
+      <text x="0" y="0" font-family="'Impact', 'Arial Black', sans-serif" font-size="64" font-weight="900" fill="#0C0A09" text-anchor="middle" letter-spacing="4">
+        DELHI
+      </text>
+      <text x="0" y="55" font-family="'Impact', 'Arial Black', sans-serif" font-size="68" font-weight="900" fill="#0C0A09" text-anchor="middle" letter-spacing="6">
+        COLLECTION
+      </text>
+
+      <!-- Store Address Subtitle -->
+      <text x="0" y="90" font-family="'Arial', sans-serif" font-size="12" font-weight="900" font-style="italic" fill="#292524" text-anchor="middle" letter-spacing="2">
+        IN FRONT OF THAKUR MEDICAL,
+      </text>
+      <text x="0" y="106" font-family="'Arial', sans-serif" font-size="12" font-weight="900" font-style="italic" fill="#292524" text-anchor="middle" letter-spacing="2">
+        BOUKA CHOWK, MAIN ROAD BHARWARA,
+      </text>
+      <text x="0" y="122" font-family="'Arial', sans-serif" font-size="12" font-weight="900" font-style="italic" fill="#292524" text-anchor="middle" letter-spacing="2">
+        DARBHANGA 847104
+      </text>
+    </g>
+
+    <!-- 6 Stylized Illustrated Men in Fashion Attire -->
+    <g transform="translate(0, 80)">
+      <!-- Man 1 (Leftmost - Overcoat) -->
+      <g transform="translate(-240, 60)">
+        <circle cx="0" cy="-70" r="16" fill="#D6D3D1" />
+        <path d="M -14 -82 C -14 -94 14 -94 14 -82 C 14 -70 14 -70 8 -65 L -8 -65 Z" fill="#1C1917" />
+        <path d="M -22 -50 L 22 -50 L 28 80 L -28 80 Z" fill="#78716C" />
+        <path d="M -12 -50 L 12 -50 L 14 30 L -14 30 Z" fill="#E7E5E4" />
+        <rect x="-18" y="80" width="14" height="70" fill="#1C1917" rx="3" />
+        <rect x="4" y="80" width="14" height="70" fill="#1C1917" rx="3" />
+      </g>
+
+      <!-- Man 2 (Kurta/Pathani Sherwani) -->
+      <g transform="translate(-145, 40)">
+        <circle cx="0" cy="-70" r="16" fill="#D6D3D1" />
+        <path d="M -12 -82 C -12 -94 12 -94 12 -82 C 12 -70 12 -70 6 -65 L -6 -65 Z" fill="#1C1917" />
+        <!-- Long Black Kurta -->
+        <path d="M -20 -50 L 20 -50 L 25 110 L -25 110 Z" fill="#292524" />
+        <path d="M -14 110 L -14 170 L -4 170 L -4 110 Z" fill="#D6D3D1" />
+        <path d="M 4 110 L 4 170 L 14 170 L 14 110 Z" fill="#D6D3D1" />
+      </g>
+
+      <!-- Man 3 (Center Vest / Formal Waistcoat & Shades) -->
+      <g transform="translate(-48, 20)">
+        <circle cx="0" cy="-70" r="16" fill="#E7E5E4" />
+        <path d="M -14 -84 C -14 -96 14 -96 14 -84 L 14 -70 L -14 -70 Z" fill="#1C1917" />
+        <!-- Sunglasses -->
+        <rect x="-10" y="-72" width="20" height="6" rx="2" fill="#0C0A09" />
+        <!-- Waistcoat & White Shirt -->
+        <path d="M -22 -48 L 22 -48 L 18 35 L -18 35 Z" fill="#0C0A09" />
+        <path d="M -6 -48 L 6 -48 L 0 -20 Z" fill="#FFFFFF" />
+        <!-- White Trousers -->
+        <rect x="-18" y="35" width="16" height="150" fill="#E7E5E4" rx="2" />
+        <rect x="2" y="35" width="16" height="150" fill="#E7E5E4" rx="2" />
+      </g>
+
+      <!-- Man 4 (Ethnic Kurta with Dupatta/Shawl) -->
+      <g transform="translate(48, 30)">
+        <circle cx="0" cy="-70" r="16" fill="#D6D3D1" />
+        <path d="M -12 -84 C -12 -96 12 -96 12 -84 L 12 -70 L -12 -70 Z" fill="#1C1917" />
+        <!-- Kurta & Patterned Shawl -->
+        <path d="M -20 -48 L 20 -48 L 24 85 L -24 85 Z" fill="#E7E5E4" />
+        <path d="M -22 -48 L 0 -48 L -8 75 L -26 65 Z" fill="#78716C" stroke="#44403C" stroke-dasharray="3 3" />
+        <!-- Black Pajama -->
+        <rect x="-16" y="85" width="14" height="100" fill="#1C1917" rx="2" />
+        <rect x="2" y="85" width="14" height="100" fill="#1C1917" rx="2" />
+      </g>
+
+      <!-- Man 5 (Smart Casual White Shirt & Glasses) -->
+      <g transform="translate(145, 25)">
+        <circle cx="0" cy="-70" r="16" fill="#E7E5E4" />
+        <path d="M -12 -86 C -12 -98 12 -98 12 -86 L 12 -70 L -12 -70 Z" fill="#1C1917" />
+        <!-- Top Knot Hair -->
+        <circle cx="0" cy="-90" r="6" fill="#1C1917" />
+        <!-- White Linen Shirt -->
+        <path d="M -22 -46 L 22 -46 L 26 40 L -26 40 Z" fill="#F5F5F4" />
+        <!-- Charcoal Pants -->
+        <rect x="-18" y="40" width="16" height="145" fill="#292524" rx="2" />
+        <rect x="2" y="40" width="16" height="145" fill="#292524" rx="2" />
+      </g>
+
+      <!-- Man 6 (Rightmost Plaid Trench Coat & Bag) -->
+      <g transform="translate(240, 50)">
+        <circle cx="0" cy="-70" r="16" fill="#D6D3D1" />
+        <path d="M -14 -84 C -14 -96 14 -96 14 -84 L 14 -70 L -14 -70 Z" fill="#1C1917" />
+        <!-- Plaid Coat & Trousers -->
+        <path d="M -24 -48 L 24 -48 L 28 95 L -28 95 Z" fill="#A8A29E" stroke="#57534E" stroke-dasharray="4 4" />
+        <rect x="-20" y="95" width="16" height="90" fill="#A8A29E" stroke="#57534E" stroke-dasharray="4 4" rx="2" />
+        <rect x="4" y="95" width="16" height="90" fill="#A8A29E" stroke="#57534E" stroke-dasharray="4 4" rx="2" />
+        <!-- Handbag -->
+        <rect x="-42" y="30" width="20" height="24" rx="4" fill="#1C1917" />
+      </g>
+    </g>
+  </g>
+</svg>

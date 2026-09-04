@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="logoBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#80142D" />
+      <stop offset="50%" stop-color="#861730" />
+      <stop offset="100%" stop-color="#6B0E23" />
+    </linearGradient>
+    <filter id="subtleShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.35" />
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" rx="40" fill="url(#logoBg)" />
+  
+  <!-- Outer Gold Rim -->
+  <rect width="480" height="480" x="10" y="10" rx="32" fill="none" stroke="#FDD145" stroke-width="2" stroke-opacity="0.25" />
+
+  <g transform="translate(250, 160)" filter="url(#subtleShadow)">
+    <!-- Hanger Hook & Body -->
+    <!-- Hook -->
+    <path d="M 0 -75 C -18 -75 -28 -60 -28 -42 C -28 -28 -16 -20 0 -12 L 0 5" 
+          fill="none" stroke="#FDD145" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" />
+    
+    <!-- Hanger Shoulder -->
+    <path d="M 0 5 C 28 5 80 32 95 62 C 60 74 15 78 0 78 C -15 78 -60 74 -95 62 C -80 32 -28 5 0 5 Z" 
+          fill="#FDD145" />
+    
+    <!-- Hanger Cutout Bar -->
+    <path d="M -60 55 Q 0 42 60 55 Q 0 68 -60 55 Z" fill="#861730" />
+  </g>
+
+  <!-- Shirt Collar & Drapery Contour -->
+  <g filter="url(#subtleShadow)">
+    <!-- White Collar / Neckline Arc -->
+    <path d="M 175 160 C 210 230 290 230 325 160 C 355 178 370 205 345 228 C 285 275 215 275 155 228 C 130 205 145 178 175 160 Z" 
+          fill="#FFFFFF" />
+    
+    <!-- White Shirt Body Arc Swoop -->
+    <path d="M 148 220 C 135 240 100 290 92 345 L 152 355 C 160 300 185 260 210 245 C 180 240 160 230 148 220 Z" 
+          fill="#FFFFFF" />
+
+    <!-- Yellow Accent Swoosh inside fold -->
+    <path d="M 152 255 C 162 285 175 340 178 395 C 165 390 152 360 142 320 C 145 295 148 275 152 255 Z" 
+          fill="#FDD145" />
+  </g>
+
+  <!-- Delhi Script Typography -->
+  <!-- White Brush Text: Delhi -->
+  <g filter="url(#subtleShadow)">
+    <text x="255" y="325" 
+          font-family="'Brush Script MT', 'Playfair Display', 'Caveat', cursive, sans-serif" 
+          font-size="96" 
+          font-weight="900" 
+          font-style="italic"
+          fill="#FFFFFF" 
+          text-anchor="middle" 
+          letter-spacing="2">
+      Delhi
+    </text>
+
+    <!-- Gold Signature Script: Collection -->
+    <text x="285" y="388" 
+          font-family="'Brush Script MT', 'Alex Brush', 'Great Vibes', 'Dancing Script', cursive" 
+          font-size="64" 
+          font-weight="bold" 
+          font-style="italic"
+          fill="#FDD145" 
+          text-anchor="middle"
+          transform="rotate(-4 285 388)">
+      Collection
+    </text>
+  </g>
+
+  <!-- Subtle Location Text -->
+  <text x="250" y="445" 
+        font-family="system-ui, -apple-system, sans-serif" 
+        font-size="12" 
+        font-weight="700" 
+        letter-spacing="4" 
+        fill="#FDD145" 
+        fill-opacity="0.8"
+        text-anchor="middle">
+    BHARWARA • DARBHANGA
+  </text>
+</svg>
